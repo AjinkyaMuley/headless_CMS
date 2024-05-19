@@ -1,0 +1,39 @@
+body {
+    background: #2c3e50;
+    color: white;
+    font-family: monospace;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .table {
+    margin-top: 15px;
+  }
+  
+  .modal-content {
+    border-radius: 0;
+  }
+  
+  .modal-header, .modal-footer {
+    background-color: #333;
+    color: white;
+    border: 0;
+  }
+  
+  .modal-body {
+    background: #2c3e50;
+    color: white;
+  }
+  
+  .close, .close:hover {
+    color: white;
+  }
+  
+  .btn {
+    font-weight: bolder;
+    letter-spacing: .2em;
+    margin-top: 10px;
+  }
+  

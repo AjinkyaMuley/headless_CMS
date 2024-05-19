@@ -1,0 +1,82 @@
+/* styles.css */
+
+.container {
+    margin-top: 50px;
+  }
+  
+  .entity-form, .entity-data-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .attributes, .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .attributes input,
+  .attributes select,
+  .form-group input,
+  .form-group select {
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .entity {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .table-striped > tbody > tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-striped > tbody > tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-dialog {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .data-container {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
